@@ -43,7 +43,8 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
   1. Built-in tool or direct first-class tool
   2. Installed skill designed for the task
   3. Existing local CLI/app already present on the machine
-  4. Safe installation of a missing skill or local dependency if that is likely to solve it
+  4. Web search for workable methods, prioritizing free and local solutions
+  5. Safe installation of a missing skill or local dependency if that is likely to solve it
 - If one path succeeds, prefer the successful path next time for the same kind of task.
 - Only report failure after reasonable fallback and recovery options have been actually tried.
 - Escalate to the user before continuing only when the next step is destructive, account-sensitive, needs credentials, needs explicit approval, or changes the system in a significant/risky way.

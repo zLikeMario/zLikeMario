@@ -51,3 +51,26 @@ Turn fallback behavior into a general rule across task execution. Before saying 
 - Tags: fallback, persistence, workflow, recovery
 
 ---
+
+## [LRN-20260412-003] correction
+
+**Logged**: 2026-04-12T14:19:00Z
+**Priority**: high
+**Status**: pending
+**Area**: config
+
+### Summary
+When a capability is missing, search the web for methods to implement it and prioritize free usable solutions before asking the user to provide paid credentials.
+
+### Details
+The user wants a stronger completion bias: if a task cannot be done with current tools, I should proactively search online for feasible implementation paths, especially free or locally runnable methods, install what is needed when safe, and then continue the task instead of stopping at the first capability gap.
+
+### Suggested Action
+Promote a general rule: capability gaps trigger method discovery and environment setup, with preference for free/local solutions, before reporting inability.
+
+### Metadata
+- Source: user_feedback
+- Related Files: TOOLS.md, AGENTS.md
+- Tags: capability-gap, fallback, web-search, free-tools, setup
+
+---

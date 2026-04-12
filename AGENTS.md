@@ -214,6 +214,7 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 - Do not give up after the first failed path when the user wants a task completed.
 - For any workflow, actively search for alternative methods that can achieve the same result.
 - Preferred order: built-in tool, installed skill, local CLI/app already on the machine, then safe installation of a missing skill or app when that is the clearest path to success.
+- If no current path works, search the web for implementation methods, prioritizing free or locally runnable options before paid services.
 - Before reporting failure, exhaust reasonable recovery options that are available within the workspace and machine.
 - If a missing dependency can likely solve the task, install or prepare it proactively when that is low-risk and does not violate safety or require external posting/account actions.
 - Only stop early when the action is destructive, permission-sensitive, requires explicit user credentials, or would materially affect the system beyond normal tool installation.
