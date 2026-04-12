@@ -74,3 +74,26 @@ Promote a general rule: capability gaps trigger method discovery and environment
 - Tags: capability-gap, fallback, web-search, free-tools, setup
 
 ---
+
+## [LRN-20260412-004] correction
+
+**Logged**: 2026-04-12T14:38:00Z
+**Priority**: high
+**Status**: pending
+**Area**: docs
+
+### Summary
+The user's TODO system is assistant-managed on the server side. The user will not manually open files or maintain the list, and will query the assistant conversationally for pending tasks.
+
+### Details
+I initially created a visible local TODO folder as if it were for the user to browse. The user clarified that they do not need a board or desktop-facing setup. They want a server-side todo memory that I maintain for them, and they will only ask me what remains unfinished.
+
+### Suggested Action
+Treat the TODO project as an assistant-operated backend record. When the user mentions tasks to remember, write them into the server-side todo files proactively and answer future status questions from those files.
+
+### Metadata
+- Source: user_feedback
+- Related Files: TODO-List/README.md, TODO-List/tasks.md, TODO-List/today.md
+- Tags: todo, memory, assistant-managed, server-side
+
+---
