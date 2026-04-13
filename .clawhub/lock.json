@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "skills": {
+    "self-improving-agent": {
+      "version": "3.0.12",
+      "installedAt": 1775124440256
+    },
+    "openai-whisper": {
+      "version": "1.0.0",
+      "installedAt": 1775125358793
+    },
+    "news-summary": {
+      "version": "1.0.1",
+      "installedAt": 1775125654400
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1775125680595
+    },
+    "multi-search-engine": {
+      "version": "2.0.1",
+      "installedAt": 1775125708515
+    },
+    "agent-browser-clawdbot": {
+      "version": "0.1.0",
+      "installedAt": 1775127431055
+    },
+    "news-summary-voice": {
+      "version": "1.0.1",
+      "installedAt": 1775864045333
+    }
+  }
+}

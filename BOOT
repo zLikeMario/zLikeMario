@@ -1,0 +1,19 @@
+# OpenClaw Startup Instructions
+
+## Essential Commands on Boot
+
+```bash
+# Start the Gateway daemon service
+openclaw gateway start
+
+# Enable internal hooks for automation
+hooks.internal.enabled=true
+
+# Verify status
+openclaw status
+```
+
+## Notes
+- These commands should run automatically on system boot
+- Ensure network connectivity before starting Gateway
+- Check logs: `journalctl -u openclaw-gateway`
